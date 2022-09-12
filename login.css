@@ -1,0 +1,66 @@
+*{
+    margin : 0;
+    padding : 0;
+    opacity : 0.9;
+}
+body{
+    background : rgba(0, 0, 0, 0.5) url("image-1.jpg");
+    background-blend-mode : darken;
+   /* -webkit-filter : blur(0px);
+    -moz-filter : blur(10px);   */ 
+}
+body:before {
+    opacity : 0.3;
+    filter : blur(8px);
+}
+form{
+    width : 30%;
+    margin : 60px auto;
+    /*background-color: whitesmoke; */
+    background : rgba(0, 0, 0, 0.9); 
+    color: white;
+    padding : 40px;
+    border-radius : 10px;
+}
+form h2{
+    text-align : center;
+}
+input[type = "number"], [type = "password"], [type = "tel"]{
+    border : none;
+    border-bottom : 1px solid white;
+    background : none;
+    width : 100%;
+}
+input[type = "submit"]{
+   /* background :linear-gradient(to right, #e93d3d, #e75d5d);   */
+   background : red;
+   border-radius : 10px;
+    width : 100%;
+    padding : 10px 25px;
+    color : white;
+    outline : none;
+}
+input[type = "submit"]:focus{
+    outline : none;
+}
+::placeholder{
+    color : grey;
+    font-size : 12px;
+}
+input:focus{
+    outline : none;
+    
+}
+h3, div {
+    text-align : center;
+}
+.first{
+    background-color : skyblue;
+    padding : 10px;
+    color : white;
+}
+.second{
+    background-color: blue;
+    padding : 10px;
+    color :white;
+}

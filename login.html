@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login form</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <form method ="post">
+        <h2>Login</h2><br>
+        <label>Adhaar Card Number:</label><br>
+        <input type="number" id="numb" name="number" min="0" placeholder="Enter your Adhaar Number"><br><br>
+        <label>Mobile Number:</label><br>
+        <input type="tel" id="phone" name="number" placeholder="+91-98765-43210"><br><br>
+        <label>OTP:</label><br>
+        <input type="password" id="password" name="number" placeholder="Enter your OTP"><br><br>
+        <input type="submit" id="submit" name="submit" value="login"><br><br>
+        <!-- <input type="reset" id="reset" name="reset" value="reset"><br><br>   -->
+        <h3>Or login with using</h3><br>
+        <div class="first">
+            <p><i class="fab fa-google" style="color:white ;"></i>     Login With Google</p>
+        </div><br>
+        <div class="second">
+            <p><i class="fab fa-facebook" style="color: white;"></i>     Login with Facebook</p>
+        </div><br>
+        <h3>OR</h3>
+        <div class="third">
+            <h4>if new user then <a href="#">sign up?</a></h4>
+        </div>
+    </form>
+
+</body>
+</html>
