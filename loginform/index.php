@@ -9,6 +9,7 @@
         if($email == $myemail and $pass == $mypass){
             if(isset($_POST['remember'])){
                 setcookie('email', $email, time()+60*60*7);
+                setcookieagain("This is again set of cookie");
                 header("location:Welcome.php");
             }
         }else{
